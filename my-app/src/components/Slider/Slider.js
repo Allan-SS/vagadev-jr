@@ -3,16 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
-  ArrowSlider,
-  ContainerArrowSlider,
-  ContainerButtonSlider,
   ContainerSlider,
   ContainerTextSlider,
   DescriptionSlider,
-  ContainerArrow,
-  IdSlider,
   ImgSlider,
-  InitialsSlider,
   NameSlider,
   PriceSlider,
   ContainerTextSliderMobile,
@@ -22,8 +16,6 @@ import {
 } from "./styled";
 import SlideScorpion from "../../assets/img/principal_banner_desktop.jpg";
 import SlideRDRD from "../../assets/img/principal_banner_desktop_02.jpg";
-import ArrowLeft from "../../assets/icons/angle-left-solid.svg";
-import ArrowRight from "../../assets/icons/angle-right-solid.svg";
 
 export default class SimpleSlider extends Component {
   constructor(props) {

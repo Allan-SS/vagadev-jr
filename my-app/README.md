@@ -7,7 +7,7 @@ hospedado em Host Surge.
 
 Pode acessar a aplicação atraves desta URL:
 
-https://concrete-challenge.web.app
+avaliacaon1.surge.sh
 
 ### Tecnologias
 
