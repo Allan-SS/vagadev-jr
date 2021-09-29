@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { primaryColor, secondaryColor } from "../../constants/colors";
 
 export const ContainerBanner = styled.div`
-transform: translateY( 22rem) ;
+  transform: translateY(22rem);
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;

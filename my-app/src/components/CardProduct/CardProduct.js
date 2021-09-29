@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Modal from "../Modal/Modal";
 import ImgBuyProduct from "../../assets/img/image_6-removebg-preview 1.png";
 import {
   ContainerCard,

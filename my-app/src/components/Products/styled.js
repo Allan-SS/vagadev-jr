@@ -17,9 +17,9 @@ export const ContainerProducts = styled.div`
     padding: 5rem;
 
     @media (max-width: 500px) {
-    padding: 0;
-    justify-content: center;
-  }
+      padding: 0;
+      justify-content: center;
+    }
   }
 
   #Card {
@@ -30,4 +30,8 @@ export const ContainerProducts = styled.div`
 export const TextProduct = styled.div`
   display: flex;
   padding: 0 7rem;
+
+  @media (max-width: 500px) {
+    padding: 0 0.9rem;
+  }
 `;

@@ -79,39 +79,21 @@ export default class SimpleSlider extends Component {
                   <ImgSlider src={slide.img} alt={"Background"} />
                   <ContainerTextSlider>
                     <div className="alignText">
-                  <NameSlider>{slide.name}</NameSlider>
-                  <PriceSlider>R$ {slide.price}</PriceSlider>
-                  <DescriptionSlider>{slide.description}</DescriptionSlider>
+                      <NameSlider>{slide.name}</NameSlider>
+                      <PriceSlider>R$ {slide.price}</PriceSlider>
+                      <DescriptionSlider>{slide.description}</DescriptionSlider>
                     </div>
-                </ContainerTextSlider>
-                <ContainerTextSliderMobile>
+                  </ContainerTextSlider>
+                  <ContainerTextSliderMobile>
                     <div className="alignText">
-                  <NameSliderMobile>{slide.name}</NameSliderMobile>
-                  <PriceSliderMobile>R$ {slide.price}</PriceSliderMobile>
-                  <DescriptionSliderMobile>{slide.description}</DescriptionSliderMobile>
+                      <NameSliderMobile>{slide.name}</NameSliderMobile>
+                      <PriceSliderMobile>R$ {slide.price}</PriceSliderMobile>
+                      <DescriptionSliderMobile>
+                        {slide.description}
+                      </DescriptionSliderMobile>
                     </div>
-                </ContainerTextSliderMobile>
-                  {/* <ContainerArrowSlider>
-                    <InitialsSlider>{slide.initials}</InitialsSlider>
-                    <hr/>
-                    <ContainerButtonSlider>
-                      <IdSlider>{slide.id} / 2</IdSlider>
-                      <ContainerArrow>
-                        <ArrowSlider
-                          src={ArrowLeft}
-                          className="button"
-                          onClick={this.previous}
-                          alt={"ArrowLeft"}
-                        />
-                        <ArrowSlider
-                          src={ArrowRight}
-                          className="button"
-                          onClick={this.next}
-                          alt={"ArrowRight"}
-                        />
-                      </ContainerArrow>
-                    </ContainerButtonSlider>
-                  </ContainerArrowSlider> */}
+                  </ContainerTextSliderMobile>
+                  {/* Todo: botões do slider */}
                 </>
               </div>
             ))}

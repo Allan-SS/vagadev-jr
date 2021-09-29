@@ -1,4 +1,5 @@
 # Avaliação Front-End JR N1
+
 Esse projeto foi implementado em React Js e está
 hospedado em Host Surge.
 
@@ -8,29 +9,25 @@ Pode acessar a aplicação atraves desta URL:
 
 https://concrete-challenge.web.app
 
+### Tecnologias
 
-### Local Host
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1> 
+<p align="center"> Biblioteca JavaScript para criar interfaces de usuário.</p><br/>
+
+<h1 align="center">
+    <a href="https://styled-components.com/"> 🖌️ Styled-components</a>
+</h1> 
+<p align="center"> Permite CSS escrito diretamente no código para estilização de componentes do React JS</p><br/>
+
+<h1 align="center">
+    <a href="https://surge.sh"> 🐸 Surge</a>
+</h1> 
+<p align="center"> Serviço de implantação e hospedagem de websites e aplicações.</p><br/>
 
 
-En la carpeta donde se haya la aplicación debes instalar las dependencias del package.json. En la terminal:
-
-```js
-npm install
-```
-Luego, para levantar la aplicación en ambiente local  debes ejecutar el comando:
-
-```js
-ng serve --o
-```
-
-### Pruebas Unitarias
-
-Las pruebas unitarias estan implementadas con Karma y Jasmine. Para ejecurtarlas:
-
-```js
-npm run test
-```
 
 ### Autor
 
-[Giselle Machado](https://github.com/gisellem22)
+[Allan Silva](https://github.com/Allan-SS)

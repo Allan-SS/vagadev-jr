@@ -12,39 +12,29 @@ export const ContainerSlider = styled.div`
     display: none !important;
   }
 
-  .alignText{
+  .alignText {
     width: 31.25rem;
     text-align: end;
     flex-wrap: wrap;
   }
-
-  @media (max-width: 450px){
-    
-  }
-
-  `;
+`;
 
 export const ImgSlider = styled.img`
   width: 100vw;
-  
-  @media (max-width: 450px){
+
+  @media (max-width: 450px) {
     width: 230vw;
   }
-  `;
+`;
 
 export const ContainerTextSlider = styled.div`
-width: 17%;
-margin-top: -26.25rem;
-position: absolute;
-display: flex;
-justify-content: flex-end;
+  width: 17%;
+  margin-top: -26.25rem;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
   z-index: 1;
   text-shadow: 0.063rem 0.063rem 1.25rem #000000;
-
-  @media (max-width: 450px){
-    
-  }
-
 `;
 
 export const NameSlider = styled.p`
@@ -52,7 +42,7 @@ export const NameSlider = styled.p`
   font-size: 2.5rem;
   display: block;
 
-  @media (max-width: 450px){
+  @media (max-width: 450px) {
     display: none;
   }
 `;
@@ -63,7 +53,7 @@ export const PriceSlider = styled.p`
   font-size: 3.75rem;
   display: block;
 
-  @media (max-width: 450px){
+  @media (max-width: 450px) {
     display: none;
   }
 `;
@@ -72,7 +62,8 @@ export const DescriptionSlider = styled.p`
   font-weight: 400;
   font-size: 0.875rem;
   display: block;
-  @media (max-width: 450px){
+
+  @media (max-width: 450px) {
     display: none;
   }
 `;
@@ -87,12 +78,12 @@ export const ContainerArrowSlider = styled.div`
   background-color: ${primaryColor};
   border-radius: 0 0 0 0.625rem;
   width: 3rem;
-  transform: translate(78.9rem, -25rem) ;
+  transform: translate(78.9rem, -25rem);
 
   hr {
     width: 8rem;
     height: 0.063rem;
-    margin: 7rem 0 0 -2.5rem ;
+    margin: 7rem 0 0 -2.5rem;
     transform: rotate(90deg);
     border: none;
     background-color: ${secondaryColor};
@@ -118,7 +109,7 @@ export const ArrowSlider = styled.img`
   padding: 0.25rem;
   border-radius: 0 0 0 0.25rem;
 
-  :hover{
+  :hover {
     cursor: pointer;
   }
 `;
@@ -128,43 +119,37 @@ export const ContainerArrow = styled.div`
   justify-content: center;
 `;
 
-
 export const ContainerTextSliderMobile = styled.div`
-width: 17%;
+  width: 17%;
 
-margin-top: -12rem;
-position: absolute;
-display: none;
+  margin-top: -12rem;
+  position: absolute;
+  display: none;
   z-index: 1;
   background: rgba(0, 0, 0, 0.65);
   text-shadow: 0.063rem 0.063rem 1.25rem #000000;
 
-  @media (max-width: 450px){
+  @media (max-width: 450px) {
     display: block;
   }
 
-.alignText{
+  .alignText {
     width: 100%;
-    /* text-align: end;
-    flex-wrap: wrap; */
   }
 `;
 
 export const NameSliderMobile = styled.p`
   font-weight: 900;
   font-size: 1.5rem;
-
 `;
 
 export const PriceSliderMobile = styled.p`
   color: ${primaryColor};
   font-weight: 900;
   font-size: 1.5rem;
-
 `;
 
 export const DescriptionSliderMobile = styled.p`
   font-weight: 400;
   font-size: 1rem;
-
 `;
