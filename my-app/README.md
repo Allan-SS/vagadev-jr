@@ -1,13 +1,6 @@
 # Avaliação Front-End JR N1
 
-Esse projeto foi implementado em React Js e está
-hospedado em Host Surge.
-
-### Hosting
-
-Pode acessar a aplicação atraves desta URL:
-
-avaliacaon1.surge.sh
+Esse projeto foi implementado em React Js
 
 ### Tecnologias
 
@@ -21,10 +14,6 @@ avaliacaon1.surge.sh
 </h1> 
 <p align="center"> Permite CSS escrito diretamente no código para estilização de componentes do React JS</p><br/>
 
-<h1 align="center">
-    <a href="https://surge.sh"> 🐸 Surge</a>
-</h1> 
-<p align="center"> Serviço de implantação e hospedagem de websites e aplicações.</p><br/>
 
 
 
